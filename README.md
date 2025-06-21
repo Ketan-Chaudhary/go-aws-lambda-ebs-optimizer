@@ -66,7 +66,7 @@ This generates a Linux-compatible executable named bootstrap.
 ### 2️⃣ Zip the binary
 
 ```bash
-zip function.zip bootstrap
+zip bootstrap.zip bootstrap
 ```
 
 ### 3️⃣ Go to Lambda Console
@@ -86,7 +86,7 @@ Click Create Function
 ### 4️⃣ Upload Deployment Package
 
 * Under Code → Click Upload from → .zip file
-* Upload your function.zip
+* Upload your bootstrap.zip
 * Click Save or Deploy
 
 ### 5️⃣ Add Environment Variable
